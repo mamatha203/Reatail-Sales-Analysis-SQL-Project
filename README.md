@@ -7,7 +7,7 @@ This project is designed to demonstrate SQL skills and techniques typically used
 - Perform basic exploratory data analysis to understand the dataset.
 - Use SQL to answer specific business questions and derive insights from the sales data.
 ## Dataset
-<a href="https://github.com/mamatha203/Financial-Loan-SQL-Project/blob/main/financial_loan.csv">Dataset</a>
+<a href="https://github.com/mamatha203/Reatail-Sales-Analysis-SQL-Project/blob/main/Retail%20Sales%20Analysis.csv">Dataset</a>
 ## Database setup
 - The project starts by creating a database named retail_db.
 - A table named retail_sales is created to store the sales data. The table structure includes columns for transaction ID, sale date, sale time, customer ID, gender, age, product category, quanty sold, price per unit, cost of goods sold (COGS), and total sale amount.
