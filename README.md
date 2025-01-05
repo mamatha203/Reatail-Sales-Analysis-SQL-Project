@@ -12,8 +12,9 @@ This project is designed to demonstrate SQL skills and techniques typically used
 '''sql
 select * 
 from retail_sales 
-where sale_date = '2022-11-05';
-'''
+where sale_date = '2022-11-05';'''
+
+
 
 
 
