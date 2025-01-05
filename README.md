@@ -9,6 +9,12 @@ This project is designed to demonstrate SQL skills and techniques typically used
 ## Database setup
 - The project starts by creating a database named retail_db.
 - A table named retail_sales is created to store the sales data. The table structure includes columns for transaction ID, sale date, sale time, customer ID, gender, age, product category, quanty sold, price per unit, cost of goods sold (COGS), and total sale amount.
+```sql
+SELECT * FROM retail_sales
+WHERE 
+    sale_date IS NULL OR sale_time IS NULL OR customer_id IS NULL OR 
+    gender IS NULL OR age IS NULL OR category IS NULL OR 
+    quantiy IS NULL OR price_per_unit IS NULL OR cogs IS NULL;
 
 ## 1.Write a SQL query to retrieve all columns for sales made on '2022-11-05'?
 ```sql
