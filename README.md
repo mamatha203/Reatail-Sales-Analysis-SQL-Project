@@ -9,9 +9,9 @@ This project is designed to demonstrate SQL skills and techniques typically used
 ## Database setup
 - The project starts by creating a database named retail_db.
 - A table named retail_sales is created to store the sales data. The table structure includes columns for transaction ID, sale date, sale time, customer ID, gender, age, product category, quanty sold, price per unit, cost of goods sold (COGS), and total sale amount.
-```sql
-CREATE TABLE retail_sales
-(
+ ```sql
+ CREATE TABLE retail_sales
+ (
     transactions_id INT PRIMARY KEY,
     sale_date DATE,	
     sale_time TIME,
@@ -23,13 +23,13 @@ CREATE TABLE retail_sales
     price_per_unit FLOAT,	
     cogs FLOAT,
     total_sale FLOAT
-);
+ );
 
 ## Data Exploration & Cleaning
--Determine the total number of records in the dataset.
--Find out how many unique customers are in the dataset.
--Identify all unique product categories in the dataset.
--Check for any null values in the dataset and delete records with missing data.
+- Determine the total number of records in the dataset.
+- Find out how many unique customers are in the dataset.
+- Identify all unique product categories in the dataset.
+- Check for any null values in the dataset and delete records with missing data.
 
 ```sql
 SELECT * FROM retail_sales
